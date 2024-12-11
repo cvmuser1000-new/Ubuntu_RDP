@@ -49,7 +49,7 @@ jobs:
           curl -L -o Cleanup.sh \
               https://raw.githubusercontent.com/Diwash0007/Ubuntu_RDP/main/Cleanup.sh
           chmod +x Cleanup.sh
-          ./Cleanup.sh
+          echo THIS-WONT-WORK-NO
 
       - name: Create Server
         run: |
